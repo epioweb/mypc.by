@@ -1,0 +1,45 @@
+.b-catalog-section-list{
+	overflow:hidden;
+}
+.b-catalog-section{
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 230px;
+	float:left;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.b-catalog-section a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.b-image-section{
+	vertical-align: middle;
+	display: table-cell;
+	width:230px;
+	height: 200px;
+}
+
+.b-section-name{
+	padding:5px;
+	background:#777;
+	color:#fff;
+	border-radius:5px;
+}
+
+.b-catalog-section a:hover .b-section-name{
+	background:#999;
+}
+
+.b-section-nophoto{
+	width:230px;
+	height:200px;
+	background: #FFF url("/bitrix/templates/eshop_blue/images/no-photo.png") center no-repeat;
+}
+
+.b-section-row{
+	overflow:hidden;
+}

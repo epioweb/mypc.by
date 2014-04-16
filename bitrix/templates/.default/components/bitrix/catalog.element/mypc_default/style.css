@@ -1,0 +1,28 @@
+.options.lsnn{
+	overflow:hidden!important;
+}
+
+.catalog-detail-images{
+	width: 280px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	height: 280px;
+}
+
+.thumbSlider a{
+	display:table-cell;
+	vertical-align: middle;
+	height:76px;
+	width: 90px;
+	text-align: center;
+}
+
+.thumbSlider ul li img{
+	box-shadow: none!important;
+}
+
+.content_search_box h1{
+	font-size:14pt!important;
+	line-height:14pt!important;
+}

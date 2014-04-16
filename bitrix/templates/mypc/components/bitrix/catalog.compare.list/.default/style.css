@@ -1,0 +1,16 @@
+.b-compare-list .links-list li{
+	line-height:1.1em;
+	margin-bottom:1.2em;
+}
+
+.b-compare-list .links-list li a{
+	display:inline;
+	word-break: break-all;
+}
+
+.b-compare-list .links-list li a.btn-delete-compare{
+	font-size: 1.2em;
+	vertical-align: top;
+	text-decoration: none;
+	color: #000;
+}

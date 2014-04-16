@@ -1,0 +1,4 @@
+.listitem ul li h4 * {
+	text-transform:none!important;
+	font-weight:normal!important;
+}

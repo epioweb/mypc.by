@@ -1,0 +1,11 @@
+.switcher-wrap>h2{
+	display:inline-block;
+	text-decoration: none;
+	border-bottom: 1px dashed #333333;
+	cursor:pointer;
+}
+
+.switcher-wrap.opened>h2{border: none;margin-bottom: 16px;}
+
+.ordering-wrap{display:none;}
+.switcher-wrap.opened .ordering-wrap{display:block;} 

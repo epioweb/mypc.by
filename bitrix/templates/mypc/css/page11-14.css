@@ -1,0 +1,502 @@
+/* Registration */
+.registration-wrap {
+    margin-bottom: 30px;
+}
+.registration, .login, .pass-recover, .form-fields {
+    padding: 35px 45px;
+}
+.registration .normal-size, .login .normal-size, .form-fields .normal-size {
+    width: 305px !important;
+}
+.form-fields .radio-wrap label {
+    margin: 5px 0;
+}
+.input-text-wrap.large .input-text {
+    margin-top: 4px !important;
+}
+.input-text-wrap.large, .select-wrap.large {
+    height: 29px !important;
+}
+.select-wrap.large .jq-selectbox .dropdown {
+    top: 31px !important;
+}
+.select-wrap.large .jq-selectbox .trigger {
+    top: 2px !important;
+    right: -6px !important;
+}
+.select-wrap.large .select {
+    margin-top: 5px !important;
+}
+.registration .captcha-size {
+    width: 162px !important;
+    height: 29px !important;
+}
+.registration .field-info {
+    font-family: "SEGOE UI Semibold", sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
+.registration-fields {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    width: 504px;
+}
+.registration-fields li:before,
+.registration-fields li:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.registration-fields li:after {
+    clear: both;
+}
+.registration-fields li {
+    display: block;
+    margin-bottom: 15px;
+}
+.registration-fields li .title {
+    font-family: "SEGOE UI Semibold", sans-serif;
+    display: block;
+}
+.registration-fields li label .title {
+    display: inline-block;
+    width: 175px;
+    position: relative;
+    top: 7px;
+}
+.registration-fields li .input-text-wrap {
+    float: right;
+}
+.required {
+    color: red;
+}
+.registration-fields .captcha-field {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.registration-fields .captcha-wrap {
+    background: #F0EFEF;
+    padding: 20px 142px 15px 20px;
+    -webkit-border-radius: 0 10px 0 10px;
+    -moz-border-radius: 0 10px 0 10px;
+    border-radius: 0 10px 0 10px;
+    margin-top: 10px;
+}
+.registration-fields .captcha {
+    margin-left: 161px;
+    margin-bottom: 12px;
+}
+.registration-fields .captcha img {
+    display: block;
+}
+.registration-fields .captcha-wrap .title {
+    width: 150px;
+    top: -4px;
+}
+
+.yellow-btn2 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 54px;
+    cursor: pointer;
+    padding-top: 0;
+    line-height: 54px;
+    text-shadow: 0 1px 1px #fbf920;
+    color: #323233;
+}
+.icon-reg2 {
+    width: 17px;
+    height: 18px;
+    background-position: -13px -255px;
+    margin-right: 17px;
+    margin-top: -1px;
+}
+
+/* Login */
+.line-header {
+    padding-bottom: 5px;
+    background: url(../images/product-header-bg.png) no-repeat 0 100%;
+    margin-bottom: 25px;
+    position: relative;
+    font: bold 21px/21px "PFBulletin", sans-serif;
+}
+.checkbox-label, .radio-label {
+    position: relative;
+    display: block;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.checkbox-label .jq-checkbox, .radio-label .jq-checkbox, .checkbox-label .jq-radio, .radio-label .jq-radio {
+    position: absolute !important;
+    top: 1px !important;
+    left: 0 !important;
+}
+.login-table {
+    width: 100%;
+    margin-bottom: 45px;
+}
+.login-table td, .fields-table td {
+    padding-bottom: 15px;
+}
+.login-table td:first-child, .fields-table td:first-child {
+    width: 85px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.fields-table .va-top {
+    vertical-align: top !important;
+}
+.fields-table .title {
+    font-family: "SEGOE UI Semibold", sans-serif;
+}
+.fields-table .va-top .title {
+    display: block;
+    margin-top: 1px;
+}
+.login-table .login-btn-wrap {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.login-table .links-wrap {
+    padding-bottom: 25px;
+}
+.icon-login2 {
+    width: 17px;
+    height: 16px;
+    background-position: -111px -255px;
+    margin-right: 17px;
+    margin-top: -2px;
+}
+.yellow-btn4 {
+    width: 155px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/yellow-btn4.png) no-repeat;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "SEGOE UI Semibold", sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 45px;
+    cursor: pointer;
+    padding-top: 0;
+    line-height: 40px;
+    text-shadow: 0 1px 1px #fbf920;
+    color: #323233;
+}
+.yellow-btn4:hover {
+    background-position: 0 100%;
+}
+.forgot-pass-link, .register-link, .auth-link {
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+}
+.forgot-pass-link {
+    margin-bottom: 7px;
+}
+
+.forgot-pass-link:after, .register-link:after, .auth-link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: url(../images/icons.png) no-repeat -150px -238px;
+}
+.register-link:after {
+    background-position: -150px -266px;
+}
+.auth-link:after {
+    background-position: -78px -255px;
+    width: 17px;
+}
+
+/* Social Login */
+.social-logins {
+
+}
+.social-logins .social-login-btn {
+    width: 172px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/grey-login-btn.png) no-repeat;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "SEGOE UI", sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 42px;
+    cursor: pointer;
+    padding-top: 0;
+    padding-left: 40px;
+    line-height: 42px;
+    position: relative;
+    color: #000000;
+}
+.social-logins .social-login-btn:hover {
+    background-position: 100% 0;
+}
+.social-logins .social-login-btn i {
+    display: block;
+    width: 23px;
+    height: 22px;
+    background: url(../images/social-login-icons.png) no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.social-logins .social-login-btn {
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.social-login-btn .soc-lj { background-position: 0 0 !important; }
+.social-login-btn .soc-ya { background-position: -195px 0 !important; }
+.social-login-btn .soc-mr { background-position: -390px 0 !important; }
+.social-login-btn .soc-li { background-position: 0 -60px !important; }
+.social-login-btn .soc-bl { background-position: -195px -60px !important; }
+.social-login-btn .soc-op { background-position: -390px -60px !important; }
+
+.social-logins-small .social-login-btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 40px;
+}
+.social-logins-small .social-login-btn i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 23px;
+    height: 22px;
+    background: url(../images/social-login-icons.png) no-repeat;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+
+/* Pass Recover */
+.pass-recover-table {
+    width: 100%;
+}
+.pass-recover-table td {
+    padding-bottom: 15px;
+}
+.pass-recover-table td:first-child {
+    width: 85px;
+    padding-right: 10px;
+}
+.pass-recover-table .recover-btn-wrap {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.pass-recover-table .links-wrap {
+    padding-bottom: 25px;
+}
+.pass-recover-table .pass-recover-header td {
+    padding-bottom: 35px;
+    vertical-align: middle;
+}
+.icon-recover2 {
+    width: 18px;
+    height: 18px;
+    background-position: -42px -256px;
+    margin-right: 17px;
+    margin-top: 0;
+}
+
+/* Cabinet Tabs */
+.cabinet-tabs {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 960px;
+}
+.cabinet-tab-headers {
+    list-style: none;
+    margin: 0 0 0 -12px;
+    padding: 0;
+}
+.cabinet-tab-headers li {
+    display: block;
+    float: left;
+    padding-top: 20px;
+    width: 131px;
+    height: 260px;
+    margin-left: 55px;
+    text-align: center;
+    font-family: "SEGOE UI Semibold", sans-serif;
+    position: relative;
+}
+.cabinet-tab-headers li.current b {
+    display: block;
+    background: url(../images/cabinet-tab-headers.png) no-repeat 50% 0;
+    height: 278px;
+    width: 166px;
+    position: absolute;
+    top: 0;
+    left: -17px;
+}
+.cabinet-tab-headers li.current b:before {
+    content: "";
+    display: block;
+    background: url(../images/cabinet-tab-headers.png) no-repeat 100% 100%;
+    height: 4px;
+    width: 900px;
+    position: absolute;
+    bottom: 0;
+    left: -900px;
+}
+.cabinet-tab-headers li.current b:after {
+    content: "";
+    display: block;
+    background: url(../images/cabinet-tab-headers.png) no-repeat 0 100%;
+    height: 4px;
+    width: 900px;
+    position: absolute;
+    bottom: 0;
+    right: -900px;
+}
+.cabinet-tab-headers li .cab-img-wrap {
+    width: 131px;
+    height: 152px;
+    background: url(../images/cabinet-icons-bg.png) no-repeat 100% 0;
+    margin-bottom: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.cabinet-tab-headers li .cab-img-wrap i {
+    display: inline-block;
+    width: 60px;
+    height: 59px;
+    background: url(../images/cabinet-icons.png) no-repeat;
+}
+.cabinet-tab-headers li .cab-img-wrap .cab-img-1 { background-position: 3px 0; }
+.cabinet-tab-headers li .cab-img-wrap .cab-img-2 { background-position: -181px 0; }
+.cabinet-tab-headers li .cab-img-wrap .cab-img-3 { background-position: -365px 0; }
+.cabinet-tab-headers li .cab-img-wrap .cab-img-4 { background-position: -549px 0; }
+.cabinet-tab-headers li .cab-img-wrap .cab-img-5 { background-position: -733px 0; }
+.cabinet-tab-headers li.current, .cabinet-tab-headers li:hover {
+    color: #008FBB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cabinet-tab-headers li.current .cab-img-wrap, .cabinet-tab-headers li:hover .cab-img-wrap {
+    background-position: 0 0;
+}
+.cabinet-tab-panes {
+    padding-top: 35px;
+}
+
+/* Black Subheader */
+.black-subheader {
+    font: bold 22px/23px "PFBulletin", sans-serif;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.black-subheader a {
+    text-decoration: none;
+    border-bottom: 1px dashed #333333;
+}
+.black-subheader a:hover {
+    border-bottom-color: transparent;
+}
+.registration-table td:first-child {
+    width: 175px;
+}
+.pull-right {
+    margin-left: 20px;
+    float: right;
+}
+.registration-info {
+    width: 285px;
+    padding-left: 30px;
+    position: relative;
+}
+.registration-info:after {
+    content: "";
+    display: block;
+    background: url(../images/icons.png) no-repeat -182px -107px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+}
+.registration-info-table {
+    width: 100%;
+    color: #4c4c4c;
+}
+.registration-info-table td {
+    padding: 1px 0;
+}
+.registration-info-table td:first-child+td {
+    text-align: right;
+}
+.blue {
+    color: #003E6B !important;
+}
+/* File Block */
+.file-load-block {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 142px;
+    height: 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.file-load-block input[type=file] {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    font-size: 600px;
+    z-index: 2;
+    cursor: pointer;
+    width: auto;
+    border: none;
+}
+
+.size-142 span {
+    width: 127px !important;
+    text-align: center;
+}
+
+.date-field {
+    position: relative;
+}
+.date-trigger, .caltrigger, .ui-datepicker-trigger {
+    display: block;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background: url(../images/date-trigger.png) no-repeat;
+    width: 21px;
+    height: 20px;
+    border: none;
+}
+.date-trigger:hover, .caltrigger:hover, .ui-datepicker-trigger:hover {
+    background-position: 100% 0;
+    cursor: pointer;
+}
+
+.review-table.full {
+    width: 100% !important;
+}

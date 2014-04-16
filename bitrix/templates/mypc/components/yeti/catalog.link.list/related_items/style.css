@@ -1,0 +1,15 @@
+.similarProductList .add-to-cart{
+	line-height: 33px;
+	padding-top:0px;
+}
+
+.similarProductList .add-to-cart span.loading-field{
+	top:0;
+	opacity: 0.6;
+	z-index: 100;
+	left: -5px;
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	display: block;
+}

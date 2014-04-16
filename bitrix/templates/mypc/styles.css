@@ -1,0 +1,379 @@
+/* --------------------- Spinner Fixes -----------------------------  */
+.spinner-wrap {
+    padding-top: 0 !important;
+}
+.ui-spinner {
+    width: 40px !important;
+    height: 30px !important;
+    padding-right: 22px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    border: none !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    background: url(../images/icons.png) no-repeat -112px -190px !important;
+}
+.spinner {
+    font-size: 14px !important;
+    line-height: 14px !important;
+    font-family: "SEGOE UI", sans-serif !important;
+    padding-top: 4px !important;
+}
+.spinner-wrap .ui-spinner-up, .spinner-wrap .ui-spinner-down {
+    border: none !important;
+}
+
+
+/* Page 01 ----------------------------------------- */
+.in-cart span {
+    color: #838281;
+}
+.products-list .footer .right .in-cart {
+    background: none;
+}
+.product-details .grey-btn2.in-cart {
+    font-size: 17px;
+}
+div.facebook .pp_content { overflow-y:auto; overflow-x: hidden;  }
+div.facebook .pp_content .article {
+    margin: 20px;
+}
+div.facebook .pp_close {
+    position: absolute;
+    right: 30px;
+}
+.not-available {
+    background: url(../images/sorting-bg.png);
+    padding: 20px;
+    width: 180px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.yellow-btn5 {
+    width: 180px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/yellow-btn5.png) no-repeat;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 35px;
+    cursor: pointer;
+    padding-top: 0;
+    line-height: 33px;
+    text-shadow: 0 1px 1px #fbf920;
+    color: #323233;
+    font-family: "SEGOE UI", sans-serif;
+}
+.yellow-btn5:hover {
+    background-position: 0 100%;
+}
+
+
+/* Page 02 ----------------------------------------- */
+.orders-intro {
+    margin-bottom: 45px;
+}
+.order-info-block-wrap {
+    margin-bottom: 50px;
+}
+.orders-intro-right {
+    float: right;
+    width: 660px;
+}
+.order-subheader {
+    color: #4d4948;
+    margin-bottom: 15px;
+    font-family: "PFBulletin", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.order-table {
+    width: 100%;
+}
+.order-table td:first-child {
+    width: 250px;
+    padding-right: 15px;
+    font-family: "SEGOE UI Semibold", sans-serif;
+}
+.order-table td:first-child+td strong {
+    color: #014773;
+}
+.order-table td {
+    border-top: 1px solid #f3f3f2;
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+.order-table tr:first-child td {
+    border-top: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.order-table-details {
+    width: 100%;
+}
+.order-table-details td:first-child {
+    width: auto !important;
+    font-family: "SEGOE UI", sans-serif;
+}
+.order-table-details td:first-child+td {
+    padding-left: 15px;
+    text-align: right;
+}
+.order-table-details td {
+    border-top: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.order-table-footer {
+    background: #cce8f5;
+    margin: 5px -45px -35px;
+    padding: 8px 25px 10px 310px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+.order-table-footer a {
+    margin-left: 30px;
+}
+.order-table-footer a:first-child {
+    margin-left: 0;
+}
+.order-table-link1,
+.order-table-link2,
+.order-table-link3 {
+    display: inline-block;
+    padding-left: 28px;
+    font-family: "SEGOE UI Semibold", sans-serif;
+    background: url(images/icons2.png) no-repeat 0 1px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.order-table-link1:hover,
+.order-table-link2:hover,
+.order-table-link3:hover {
+    color: #008FBB;
+    text-decoration: underline;
+}
+.order-table-link1 {
+    background-position: 0 1px;
+}
+.order-table-link2 {
+    background-position: 0 -89px;
+}
+.order-table-link3 {
+    background-position: 0 -182px;
+}
+.orders-history-link {
+    display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.orders-history-link:hover {
+    color: #008FBB;
+    text-decoration: underline;
+}
+
+/* Page 03 ----------------------------------------- */
+.subscribe-info-block {
+    padding-bottom: 10px;
+}
+.radio-label.inline {
+    display: inline-block;
+    margin-right: 35px;
+}
+.subscribe-info-table {
+    width: 100%;
+}
+.subscribe-info-table td:first-child {
+    width: 170px;
+    padding-right: 15px;
+}
+.subscribe-info-table td {
+    padding-bottom: 30px;
+}
+.subscribe-info-table .divider {
+    height: 0;
+    border-top: 2px solid #f3f3f2;
+}
+.subscribe-info-table .va-top {
+    vertical-align: top;
+}
+.info-field {
+    display: block;
+    padding-left: 22px;
+}
+.semibold {
+    font-family: "SEGOE UI Semibold", sans-serif;
+}
+
+/* Page 04 ----------------------------------------- */
+.checkout-auth-cols {
+    margin-bottom: 35px;
+}
+.checkout-auth-cols .left-col,
+.checkout-auth-cols .right-col {
+    list-style: none;
+    width: 460px;
+    float: left;
+}
+.checkout-auth-cols .right-col {
+    float: right;
+}
+.checkout-auth-cols .left-col li,
+.checkout-auth-cols .right-col li {
+    display: block;
+    margin-bottom: 13px;
+}
+.checkout-auth-cols label .title {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "SEGOE UI Semibold", sans-serif;
+}
+.checkout-auth-wrap {
+    background-image: url(images/checkout-auth-sh.png);
+}
+.checkout-auth-wrap .in {
+    padding: 10px 30px 10px;
+}
+.icon-login3 {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(images/icon-login.png) no-repeat;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.icon-reg3 {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(images/icon-reg.png) no-repeat;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.checkout-auth-wrap .in ul {
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+.checkout-auth-wrap .in ul > li {
+    margin-bottom: 18px;
+}
+.forgot-pass-link2 {
+    display: inline-block;
+    padding-left: 22px;
+    position: relative;
+    color: #007cc3 !important;
+}
+.forgot-pass-link2 {
+    margin-bottom: 7px;
+}
+.forgot-pass-link2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: url(images/icon-question.png) no-repeat 0 0;
+}
+.yellow-btn6 {
+    width: 272px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(images/yellow-btn6.png) no-repeat;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 47px;
+    cursor: pointer;
+    padding-top: 0;
+    line-height: 45px;
+    text-shadow: 0 1px 1px #fbf920;
+    color: #323233;
+    font-family: "SEGOE UI", sans-serif;
+}
+.yellow-btn6:hover {
+    background-position: 0 100%;
+}
+.checkout-auth-wrap .radio-wrap > label {
+    margin-bottom: 5px;
+}
+.captcha-wrap2 {
+    background: #ececeb;
+    padding: 15px 25px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 312px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.captcha-wrap2 .input-text-wrap {
+    width: 242px !important;
+}
+
+
+.not-available {
+    background: url(images/sorting-bg.png);
+    padding: 20px;
+    width: 180px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.yellow-btn5 {
+    width: 180px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(images/yellow-btn5.png) no-repeat;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 35px;
+    cursor: pointer;
+    padding-top: 0;
+    line-height: 33px;
+    text-shadow: 0 1px 1px #fbf920;
+    color: #323233;
+    font-family: "SEGOE UI", sans-serif;
+}
+.yellow-btn5:hover {
+    background-position: 0 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

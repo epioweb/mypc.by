@@ -1,0 +1,47 @@
+.cart-summary button.yellow-btn2 {
+	cursor:pointer;
+	width: 199px;
+	height: 54px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url('/bitrix/templates/mypc/images/yellow-btn2.png') no-repeat;
+	border: none;
+	text-align: center;
+	padding-top: 0px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+.cart-summary button.yellow-btn2:hover {
+  background-position: 0 100%;
+}
+
+.price3 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 238px;
+    height: 43px;
+    background: url(images/price-bg4.png) no-repeat 0 0;
+    font: 16px/37px "SEGOE UI", sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-right: 101px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+.price3 .usd {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 101px;
+    color: #4D4948;
+    font-size: 16px;
+    line-height: 37px;
+}
+
+.cart-wrap .item .price3 {
+    margin-left: -4px;
+}

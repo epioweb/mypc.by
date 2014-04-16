@@ -1,0 +1,28 @@
+.panel .checkbox-list li{
+	width:100%!important;
+}
+
+.delete-filter-prop{
+	font-weight: bold;
+	font-size: 13pt;
+	cursor:pointer;
+	color:#000;
+}
+
+.delete-filter-prop:hover{
+	color:#00B5E0;
+}
+
+.filter-select-val{
+	margin: 2px 0;
+	padding: 2px 0;
+	line-height: 1.0em;
+	font-size: 9pt;
+	border-bottom: 1px dotted#ccc;
+}
+
+.filter-select-val:last-child{
+	border-bottom:none;
+	margin-bottom:0;
+	padding-bottom:0;
+}

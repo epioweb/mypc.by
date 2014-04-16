@@ -1,0 +1,18 @@
+.compare-wrap .yellow-btn.largest{
+	padding: 7px 10px 0 55px;
+}
+
+table.compare .cart td{
+	padding-top: 15px;
+}
+
+.buyBtnLink span.loading-field{
+	top: 0;
+	opacity: 0.6;
+	z-index: 100;
+	left: -10px;
+	position: absolute;
+	width: 180px;
+	height: 100%;
+	display: block;
+}
